@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>隐私政策 · vela 证件照</title>
+<meta name="description" content="vela 证件照隐私政策：不收集个人信息，照片仅在设备本地处理，不上传服务器。">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+
+  <header class="hero">
+    <div class="app">
+      <svg class="mark" viewBox="0 0 1024 1024" aria-hidden="true">
+        <defs>
+          <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#4A9BFF"/>
+            <stop offset="0.5" stop-color="#1E68E6"/>
+            <stop offset="1" stop-color="#0A3A9C"/>
+          </linearGradient>
+        </defs>
+        <rect width="1024" height="1024" rx="224" fill="url(#bg)"/>
+        <g fill="none" stroke="#FFFFFF" stroke-width="18" stroke-linecap="square" opacity="0.9">
+          <path d="M300 360 V250 H410"/><path d="M724 360 V250 H614"/>
+          <path d="M300 664 V774 H410"/><path d="M724 664 V774 H614"/>
+        </g>
+        <rect x="360" y="330" width="304" height="364" rx="34" fill="#FFFFFF"/>
+        <ellipse cx="512" cy="470" rx="62" ry="74" fill="#123C8C"/>
+        <path d="M404 694 C404 606 452 570 512 570 C572 570 620 606 620 694 Z" fill="#123C8C"/>
+      </svg>
+      <h1>隐私政策</h1>
+    </div>
+    <p>最后更新：2026 年 11 月 11 日 · 适用于 vela 证件照 iOS 版</p>
+  </header>
+
+  <section class="card">
+    <h2>一句话概括</h2>
+    <p>本 App 没有服务器：照片在你的设备上完成处理，我们不收集、不上传、不共享任何个人信息。</p>
+  </section>
+
+  <section class="card">
+    <h2>一、我们不收集任何个人信息</h2>
+    <ul>
+      <li>本 App <strong>不需要注册或登录</strong>，不收集姓名、手机号、邮箱、设备标识或位置信息。</li>
+      <li>本 App <strong>不含第三方统计、广告或追踪 SDK</strong>，不做跨 App 追踪。</li>
+      <li>我们<strong>没有用于存放照片的服务器</strong>，处理结果不会离开你的设备。</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>二、相册与相机权限</h2>
+    <table>
+      <thead>
+        <tr><th>权限</th><th>触发时机</th><th>用途</th><th>数据去向</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>相册读取</td><td>你主动点击「选择照片」</td><td>读取你选中的一张照片用于生成证件照</td><td>仅留在设备内</td></tr>
+        <tr><td>相册写入</td><td>你点击「保存到相册」</td><td>把生成好的证件照写入系统相册</td><td>仅写入你的相册</td></tr>
+        <tr><td>相机</td><td>你选择「拍摄」</td><td>拍摄一张待处理的照片</td><td>仅留在设备内</td></tr>
+      </tbody>
+    </table>
+    <p>以上权限都可以随时在「设置 → vela证件照」中关闭。关闭后仅对应功能不可用，其余功能不受影响。</p>
+  </section>
+
+  <section class="card">
+    <h2>三、设备内的临时文件</h2>
+    <p>为了在切换页面时不重复计算，抠图结果会在 App 的临时目录内短暂保留，载入新照片或重启 App 时被覆盖。删除 App 会一并清除这些文件。</p>
+    <p>生成的成片只有在你在系统相册界面确认保存后，才会写入相册；App 不会自行上传或备份到任何云端。</p>
+  </section>
+
+  <section class="card">
+    <h2>四、儿童隐私</h2>
+    <p>本 App 不面向儿童设计，也不会有意收集儿童的个人信息——实际上本 App 不收集任何用户的信息。</p>
+  </section>
+
+  <section class="card">
+    <h2>五、政策的变更</h2>
+    <p>如果未来加入需要联网或需要收集数据的功能，我们会先更新本页面并在 App 内提示，未经你同意不会改变现有「本地处理、不上传」的方式。本页顶部的更新日期即为最新版本的时间。</p>
+  </section>
+
+  <section class="card">
+    <h2>六、联系我们</h2>
+    <p>对本政策有疑问，或希望确认某个功能的数据行为，可以通过<a href="https://github.com/qileijohn-ctrl/vela-idphoto-site/issues" target="_blank" rel="noopener">问题反馈页</a>联系我们。</p>
+  </section>
+
+  <footer>
+    <a href="index.html">支持与帮助</a> · <a href="https://github.com/qileijohn-ctrl/vela-idphoto-site" target="_blank" rel="noopener">GitHub</a><br>
+    © 2026 vela 证件照
+  </footer>
+
+</div>
+</body>
+</html>
